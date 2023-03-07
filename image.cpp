@@ -24,7 +24,7 @@ namespace img {
             input.read(reinterpret_cast<char*>(&offset),sizeof(offset));
             return *this;
         }
-        bmpsig():filesize(14+40),placeholder(0),offset(0),signature(0x4d42){
+        bmpsig():filesize(14+40),placeholder(0),offset(14+40),signature(0x4d42){
         }
         bmpsig(std::ifstream &input){
             load(input) ;

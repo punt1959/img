@@ -38,8 +38,8 @@
 			children = (
 				56706DCD29B69CCC00B72E40 /* CMakeLists.txt */,
 				6420EBDE29A2A94000E724A7 /* image.cpp */,
-				6420EBDA29A2873100E724A7 /* color.cpp */,
 				6420EBDF29A2A94000E724A7 /* image.hpp */,
+				6420EBDA29A2873100E724A7 /* color.cpp */,
 				6420EBDB29A2873100E724A7 /* color.hpp */,
 				6420EBD229A2869F00E724A7 /* Products */,
 			);
